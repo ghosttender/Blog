@@ -18,10 +18,19 @@ nav:
   fixed: false
 
 menu:
-  Home: / || fas fa-home
-  List||fas fa-list:
-    Music: /music/ || fas fa-music
-    Movie: /movies/ || fas fa-video
+  # Home: / || fas fa-home
+  # List||fas fa-list:
+  #   Music: /music/ || fas fa-music
+  #   Movie: /movies/ || fas fa-video
+  首页: / | fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories// || fas fa-folder-open
+  列表 || fas fa-list:
+    音乐: /music/ || fas fa-music 
+    影视: /movies/ || fas fa-video 
+  友情链接: /link/ || fas fa-link 
+  关于: /about/ || fas fa-heart 
 
 # --------------------------------------
 # Code Blocks Settings
@@ -56,7 +65,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /imges/picture.png
   effect: false
 
 # Disable all banner images
@@ -66,7 +75,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img:
+index_img: /imges/index_bg.png
 
 # The banner image of archive page
 archive_img:
@@ -149,7 +158,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -162,9 +171,11 @@ subtitle:
   # 1 - hitokoto.cn
   # 2 - https://api.aa1.cn/doc/yiyan.html
   # 3 - jinrishici.com
-  source: false
+  source: 3
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - My First Blog
+    - I Love Fishc.com
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
